@@ -1,0 +1,5 @@
+@startuml frontend
+
+Application -> BFF 
+
+@enduml
