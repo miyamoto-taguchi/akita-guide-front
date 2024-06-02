@@ -1,9 +1,5 @@
-import Image from "next/image";
+import HomeTemplates from "@/components/templates/HomeTemplates";
 
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Akita Guide</h1>
-    </main>
-  );
+  return <HomeTemplates />;
 }
