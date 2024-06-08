@@ -2,17 +2,17 @@ import { Button } from "@/components/ui/button";
 import React from "react";
 
 type SecondaryButtonProps = {
-  label: string;
+  children: string;
   handleClick?: () => void;
 };
 
 const SecondaryButton: React.FC<SecondaryButtonProps> = ({
-  label,
+  children,
   handleClick,
 }) => {
   return (
     <Button variant="secondary" onClick={handleClick}>
-      {label}
+      {children}
     </Button>
   );
 };
