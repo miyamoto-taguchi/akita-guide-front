@@ -8,9 +8,9 @@ const Header = () => {
       <p>Tokyo Guide Logo</p>
       <Search />
       <div className="flex gap-2 justify-between items-center">
-        <LinkButton href="/" label="HOME" />
-        <LinkButton href="/" label="ABOUT" />
-        <LinkButton href="/" label="DOCS" />
+        <LinkButton href="/">HOME</LinkButton>
+        <LinkButton href="/">ABOUT</LinkButton>
+        <LinkButton href="/">DOCS</LinkButton>
       </div>
     </div>
   );

@@ -2,17 +2,17 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 
 type PrimaryButtonProps = {
-  label: string;
+  children: string;
   handleClick?: () => void;
 };
 
 const PrimaryButton: React.FC<PrimaryButtonProps> = ({
-  label,
+  children,
   handleClick,
 }) => {
   return (
     <Button variant="default" onClick={handleClick}>
-      {label}
+      {children}
     </Button>
   );
 };
