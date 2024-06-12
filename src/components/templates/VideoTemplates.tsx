@@ -1,7 +1,6 @@
 import React from "react";
 import VideoPlayer from "../organisms/VideoPlayer";
 import { VideoControls } from "@/hooks/useVideo";
-import CardMol from "../molcules/Card/CardMol";
 
 type VideoTemplatesProps = {
   videoUrl: string;
@@ -50,10 +49,6 @@ const VideoTemplates: React.FC<VideoTemplatesProps> = ({
 
         <div className=" w-full h-24 bg-slate-400">
           ここにもorganismsを組み込んだり
-        </div>
-
-        <div>
-          <CardMol />
         </div>
       </div>
     </div>
