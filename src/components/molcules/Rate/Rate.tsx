@@ -2,10 +2,10 @@ import { FC } from "react";
 import { StarFilled, Star } from "@/components/atoms/Icon";
 import { useRating } from "@/hooks/useRating";
 
-interface RateProps {
+type RateProps = {
   initialRating: number;
   onRatingChange?: (rating: number) => void;
-}
+};
 
 const Rate: FC<RateProps> = ({ initialRating, onRatingChange }) => {
   const { rating, totalStars, handleClick } = useRating(
